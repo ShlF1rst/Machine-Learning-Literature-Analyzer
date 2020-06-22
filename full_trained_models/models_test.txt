@@ -1,0 +1,55 @@
+STANFORD 
+
+precision    recall  f1-score   support
+
+      PERSON       0.69      0.68      0.69      3188
+
+   micro avg       0.69      0.68      0.69      3188
+   macro avg       0.69      0.68      0.69      3188
+weighted avg       0.69      0.68      0.69      3188
+
+CRF
+              precision    recall  f1-score   support
+
+      PERSON       0.89      0.87      0.88      4765
+
+   micro avg       0.89      0.87      0.88      4765
+   macro avg       0.89      0.87      0.88      4765
+weighted avg       0.89      0.87      0.88      4765
+
+NAIVE
+
+ precision    recall  f1-score   support
+
+      PERSON       0.82      0.76      0.79      4765
+
+   micro avg       0.82      0.76      0.79      4765
+   macro avg       0.82      0.76      0.79      4765
+weighted avg       0.82      0.76      0.79      4765
+
+PASSIVE-AGRESSIVE
+              precision    recall  f1-score   support
+
+      PERSON       0.66      0.91      0.76      4765
+
+   micro avg       0.66      0.91      0.76      4765
+   macro avg       0.66      0.91      0.76      4765
+weighted avg       0.66      0.91      0.76      4765
+
+PERCEPTRON
+              precision    recall  f1-score   support
+
+      PERSON       0.62      0.96      0.75      4765
+
+   micro avg       0.62      0.96      0.75      4765
+   macro avg       0.62      0.96      0.75      4765
+weighted avg       0.62      0.96      0.75      4765
+
+SGD
+              precision    recall  f1-score   support
+
+      PERSON       0.64      0.94      0.76      4765
+
+   micro avg       0.64      0.94      0.76      4765
+   macro avg       0.64      0.94      0.76      4765
+weighted avg       0.64      0.94      0.76      4765
